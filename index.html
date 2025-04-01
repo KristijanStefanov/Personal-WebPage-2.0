@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/4cd7d2d243.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<header>
+    <nav id="navbar">
+        <div class="container">
+            <h1 class="logo"><a href="#">KiKo</a></h1>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="myProjects.html">Projects</a></li>
+                <li><a href="contact.html" class="current">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<main>
+    <section id="hero">
+        <div class="hero-container">
+            <div class="hero-image">
+                <div class="circle circle-1"></div>
+                <div class="circle circle-2"></div>
+                <div class="circle circle-3"></div>
+                <img src="./images/photoAp.jpg" alt="Kristijan Stefanov">
+            </div>
+            <div class="hero-text">
+                <h1>Hi, I’m <span class="text-primary">Kristijan Stefanov</span></h1>
+                <h2>Web/Software Developer.</h2>
+                <p>Turning ideas into code since '21.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="home-cv" class="bg-dark">
+        <div class="container">
+            <div id="info">
+                <h2><span class="text-primary">My Short</span> Curriculum Vitae</h2>
+                <p>
+                    I studied in Gymnasium Slavco Stojmenski localised in my home town Shtip. Now I am a first year student on the Faculty of Computer Science and Computer Engineering in Skopje. I'm looking forward to becoming a great engineer. I am also interested in learning web design.
+                </p>
+                <div class="cv-buttons">
+                    <a href="./resume/Kristijan_Stefanov_resume.pdf" class="btn btn-dark" download>Download CV</a>
+                    <a href="myProjects.html" class="btn btn-light">View Projects</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="expertise">
+        <h2 class="section-title"><span class="text-primary">My</span> Expertise</h2>
+        <div class="expertise-container">
+            <div class="expertise-card">
+                <i class="fas fa-code fa-3x"></i>
+                <h3>Web Development</h3>
+                <p>Skilled in HTML,CSS,JS,REACT,NEXT.JS,PRISMA to build responsive and modern full-stack web applications.</p>
+            </div>
+            <div class="expertise-card">
+                <i class="fas fa-laptop-code fa-3x"></i>
+                <h3>Software Engineering</h3>
+                <p>Studying Computer Science and Engineering, with a focus on problem-solving and coding.</p>
+            </div>
+            <div class="expertise-card">
+                <i class="fas fa-paint-brush fa-3x"></i>
+                <h3>UI/UX Design</h3>
+                <p>Passionate about creating user-friendly and visually appealing designs.</p>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer id="main-footer">
+    <div class="container">
+        <p>Kristijan Stefanov 6/2022 © 2022 All rights reserved.</p>
+        <ul>
+            <li><a href="https://www.facebook.com/kristijan.stefanov48/" target="_blank"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="https://www.instagram.com/kristijan.stefanov_/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/kristijan-stefanov-2256a626b/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+            <li><a href="https://github.com/KristijanStefanov" target="_blank"><i class="fab fa-github"></i></a></li>
+        </ul>
+    </div>
+</footer>
+<script>
+    document.querySelector('.menu-toggle').addEventListener('click', () => {
+    document.querySelector('.nav-menu').classList.toggle('active');
+});
+</script>
+</body>
+</html>

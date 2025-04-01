@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects</title>
+    <link rel="stylesheet" href="./css/projects.css">
+    <script src="https://kit.fontawesome.com/4cd7d2d243.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+<header>
+    <nav id="navbar">
+        <div class="container">
+            <h1 class="logo"><a href="#">KiKo</a></h1>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="myProjects.html">Personal Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<main>
+    <section id="projects">
+        <h2 class="section-title"><span class="text-primary">My</span> Projects</h2>
+        <div class="projects-container">
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="./images/slika1.png" alt="Project 1 Screenshot" loading="lazy">
+                </div>
+                <div class="project-info">
+                    <h3>IznajmiLesno</h3>
+                    <p>
+                        IznajmiLesno is a modern, full-stack web application designed to
+                        revolutionize the car rental industry by enabling peer-to-peer car
+                        rentals between private individuals. Built using Next.js, Prisma,
+                        MongoDB, and Tailwind CSS, this platform allows car owners to list
+                        their vehicles for rent and renters to find and book cars directly
+                        from private owners, bypassing traditional rental agencies. 
+                    </p>
+                    <a href="https://iznajmi-lesno.vercel.app/" target="_blank" class="btn btn-dark">View Project</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="./images/slika2.png" alt="Project 2 Screenshot" loading="lazy">
+                </div>
+                <div class="project-info">
+                    <h3>BEAUTY BRAND ALEKSADRA</h3>
+                    <p>
+                       It's a portfolio website I created for a client. 
+                       t features a modern design with a focus on user experience and accessibility.
+                    </p>
+                    <a href="https://beaty-brand-aleksandra.vercel.app/index.html" target="_blank" class="btn btn-dark">View Project</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="./images/slika3.png" alt="Project 3 Screenshot" loading="lazy">
+                </div>
+                <div class="project-info">
+                    <h3>Porfolio Web Page University Project</h3>
+                    <p>
+                        It's a portfolio website I created when I started learning the basics of web programing . 
+                       
+                    </p>
+                    <a href="https://kristijanstefanov.github.io/Personal-WebPage/index.html" target="_blank" class="btn btn-dark">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer id="main-footer">
+    <div class="container">
+        <p>Kristijan Stefanov 6/2022 © 2022 All rights reserved.</p>
+        <ul>
+            <li><a href="https://www.facebook.com/kristijan.stefanov48/" target="_blank"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="https://www.instagram.com/kristijan.stefanov_/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/kristijan-stefanov-2256a626b/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+            <li><a href="https://github.com/KristijanStefanov" target="_blank"><i class="fab fa-github"></i></a></li>
+
+        </ul>
+    </div>
+</footer>
+<script>
+    document.querySelector('.menu-toggle').addEventListener('click', () => {
+    document.querySelector('.nav-menu').classList.toggle('active');
+});
+</script>
+</body>
+</html>

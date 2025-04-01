@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="./css/contact.css">
+    <script src="https://kit.fontawesome.com/4cd7d2d243.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<header>
+    <nav id="navbar">
+        <div class="container">
+            <h1 class="logo"><a href="#">KiKo</a></h1>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="myProjects.html">Projects</a></li>
+                <li><a href="contact.html" class="current">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<main>
+    <section id="contact">
+        <h2 class="section-title"><span class="text-primary">Let’s</span> Connect</h2>
+        <div class="contact-container">
+            <div class="contact-card">
+                <div class="contact-info">
+                    <h3>Reach Out to Me</h3>
+                    <p>Feel free to get in touch via phone or mail!</p>
+                    <ul class="contact-details">
+                        <li>
+                            <i class="fas fa-phone-alt"></i>
+                            <span>+38978484819</span>
+                        </li><li>
+                            <i class="fas fa-mail-bulk"></i>
+                            <span>kristijan.stefanov@protonmail.com</span>
+                        </li>
+                        <p>Socials</p>
+                        <hr>
+                        <li>
+                            <i class="fab fa-facebook"></i>
+                            <a href="https://www.facebook.com/kristijan.stefanov48/" target="_blank">Facebook</a>
+                        </li>
+                        <li>
+                            <i class="fab fa-instagram"></i>
+                            <a href="https://www.instagram.com/kristijan.stefanov_/" target="_blank">Instagram</a>
+                        </li>
+                        <li>
+                            <i class="fab fa-linkedin"></i>
+                            <a href="https://www.linkedin.com/in/kristijan-stefanov-2256a626b/" target="_blank">Linkedin</a>
+                        </li>
+                        <li>
+                            <i class="fab fa-github"></i>
+                            <a href="https://github.com/KristijanStefanov" target="_blank">GitHub</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer id="main-footer">
+    <div class="container">
+        <p>Kristijan Stefanov 6/2022 © 2022 All rights reserved.</p>
+        <ul>
+            <li><a href="https://www.facebook.com/kristijan.stefanov48/" target="_blank"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="https://www.instagram.com/kristijan.stefanov_/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/kristijan-stefanov-2256a626b/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+            <li><a href="https://github.com/KristijanStefanov" target="_blank"><i class="fab fa-github"></i></a></li>
+
+        </ul>
+    </div>
+</footer>
+<script>
+    document.querySelector('.menu-toggle').addEventListener('click', () => {
+    document.querySelector('.nav-menu').classList.toggle('active');
+});
+</script>
+</body>
+</html>
